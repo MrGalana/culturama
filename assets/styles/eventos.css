@@ -1,0 +1,93 @@
+.eventos__lista {
+    column-gap: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.eventos__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.eventos__item {
+    background-color: var(--cartao-claro);
+    display: grid;
+    flex-grow: 1;
+    grid-template-areas: 
+    "imagem imagem"
+    "nome nome"
+    "data data"
+    "local botao";
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto;
+    height: 318px;
+    max-width: 400px;
+    padding-bottom: 1rem;
+    width: 307px;
+}
+
+.eventos__item img {
+    grid-area: imagem;
+    width: 100%;
+}
+
+.eventos__item h3 {
+    align-self: center;
+    font-size: 18px;
+    font-weight: 600;
+    grid-area: nome;
+}
+
+.eventos__item h4 {
+    font-size: 1rem;
+    grid-area: data;
+}
+
+.eventos__item h5 {
+    align-self: end;
+    font-size: 1rem;
+    grid-area: local;
+}
+
+.eventos__item h3,
+.eventos__item h4,
+.eventos__item h5 {
+    padding-left: 1rem;
+}
+
+.eventos__item button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    grid-area: botao;
+    margin-right: 1rem;
+    outline: none;
+    padding: .5rem 0;
+    text-align: center;
+    transition: .5s;
+    width: 80px;
+}
+
+.eventos__botao button:hover,
+.agenda__botao button:hover,
+.eventos__item button:hover,
+.agenda__atracao button:hover {
+    background-color: var(--destaque);
+}
+
+.eventos__botao button,
+.agenda__botao button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: .75rem 0;
+    transition: .5s;
+    width: 148px;
+}

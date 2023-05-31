@@ -1,0 +1,45 @@
+@import url(./cabecalho.css);
+@import url(./banner.css);
+@import url(./categorias.css);
+@import url(./eventos.css);
+@import url(./agenda.css);
+@import url(./rodape.css);
+@import url(./responsivo.css);
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*cores*/
+    --destaque: #93329E;
+    --background: #FFE3FE;
+    --azul: #4CACBC;
+    --cartao-claro: #B4AEE8;
+    --cartao-escuro: #440A67;
+    --lilas: #A459D1;
+    --rosa: #F266AB;
+    
+    /*fontes*/
+    --fonte-primaria: 'Work Sans', sans-serif;
+    --fonte-secundaria: 'Fjalla One', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fonte-primaria);
+    height: 100vh;
+}
+
+.principal {
+    padding: 0 1.5rem;
+}
+
+img {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+img:hover {
+    opacity: 0.7;
+}
