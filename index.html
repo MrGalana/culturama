@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culturama</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <h1 class="menu__titulo"></h1>
+                </li>
+                <li class="menu__item"><a href="#">Programação</a></li>
+                <li class="menu__item"><a href="#">Categorias</a></li>
+                <li class="menu__item"><a href="#">Seu local</a></li>
+
+                <li class="menu__item menu__pesquisar">
+                    <label class="menu__label" for="pesquisar">
+                        <input class="menu__input" type="search" name="" placeholder="O que você procura?" id="pesquisar">
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="principal">
+
+        <section class="banner">
+            <img src="./assets/img/banner-1.png" alt="Bailarinas dançando">
+            <img src="./assets/img/banner-2.png" alt="Peça teatral O Mágico de Oz">
+            <img src="./assets/img/banner-3.png" alt="Modelo fotográfica deitada">
+            <img src="./assets/img/banner-4.png" alt="Obra de arte feminina">
+        </section>
+
+        <section class="categorias">
+            <h2 class="categorias__titulo">Categorias</h2>
+            <ul class="categorias__lista">
+                <li class="categorias__item">Shows</li>
+                <li class="categorias__item">Teatro</li>
+                <li class="categorias__item">Festivais</li>
+                <li class="categorias__item">Cinema</li>
+                <li class="categorias__item">Arte</li>
+                <li class="categorias__item">Fotografia</li>
+                <li class="categorias__item">Tecnologia</li>
+                <li class="categorias__item">Design</li>
+            </ul>
+
+            <div class="categorias__destaques">
+                <div class="destaques">
+                    <h3 class="destaques__titulo">Destaques:</h3>
+                    <div class="destaques__barra"></div>
+                    <div>
+                        <img src="./assets/img/icone-seta-voltar.png">
+                        <img src="./assets/img/icone-seta-avancar.png">
+                    </div>
+                </div>
+            </div>
+            <div class="categorias__imagem"></div>
+        </section>
+
+        <section class="eventos">
+            <h2 class="eventos__titulo">Próximos eventos</h2>
+            <ul class="eventos__lista">
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-1.png" alt="Velas em um fundo preto.">
+                    <h3>Festival das Luzes</h3>
+                    <h4>12/08/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-2.png" alt="Anitta no palco.">
+                    <h3>Show - Anitta</h3>
+                    <h4>12/08/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-3.png" alt="Sala de cinema.">
+                    <h3>Festival de Cinema</h3>
+                    <h4>16/08/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-4.png" alt="Corrida de bicicleta.">
+                    <h3>Corrida pela Saúde</h3>
+                    <h4>20/08/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-5.png" alt="Pikachu gigante">
+                    <h3>Feira de Animes</h3>
+                    <h4>02/09/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-6.png" alt="Pessoas fazendo yoga.">
+                    <h3>Workshop de Meditação</h3>
+                    <h4>18/09/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-7.png" alt="Mulheres dançando zumba.">
+                    <h3>Zumba Comunitário</h3>
+                    <h4>21/09/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-8.png" alt="Sala de cinema.">
+                    <h3>Quinta 3D</h3>
+                    <h4>05/10/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-9.png" alt="Obras de Roberto Ferri.">
+                    <h3>Exposição de Arte: Ferri</h3>
+                    <h4>20/10/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-10.png" alt="Dançarina de pole dance.">
+                    <h3>Apresentação de Pole Dance</h3>
+                    <h4>11/11/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-11.png" alt="Mulheres desfilando.">
+                    <h3>Desfile de Moda - Nuance</h3>
+                    <h4>23/11/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-12.png" alt="Estandes de livros.">
+                    <h3>Feira de Literatura e Fotografia</h3>
+                    <h4>05/12/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-13.png" alt="Estandes de livros.">
+                    <h3>Feira de Robótica</h3>
+                    <h4>12/12/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-14.png" alt="Mulheres com pinturas no corpo.">
+                    <h3>Workshop de Body Art</h3>
+                    <h4>15/12/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-15.png" alt="Mulher sendo tatuada.">
+                    <h3>Workshop de Tatuagem</h3>
+                    <h4>15/12/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-16.png" alt="Feira de gastronomia.">
+                    <h3>Feira Gastronômica</h3>
+                    <h4>16/12/23</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__botao"><button>Ver mais</button></li>
+            </ul>
+        </section>
+
+        <section class="agenda">
+            <h2 class="agenda__titulo">Coloque na sua agenda!</h2>
+            <ul class="agenda__lista">
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-1.png" alt="Festa junina.">
+                    <div class="agenda__informacoes">
+                        <h3>jun</h3>
+                        <h4>24 (sáb)</h4>
+                        <h5>18:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Festa Junina</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-2.png" alt="Mulher alemã carregando canecas de cerveja">
+                    <div class="agenda__informacoes">
+                        <h3>jul</h3>
+                        <h4>21 (sex)</h4>
+                        <h5>18:30</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Festa Alemã</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-3.png" alt="Show do Alok.">
+                    <div class="agenda__informacoes">
+                        <h3>ago</h3>
+                        <h4>19 (sáb)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Show do Alok</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-4.png" alt="Modelos usando lingeries">
+                    <div class="agenda__informacoes">
+                        <h3>ago</h3>
+                        <h4>26 (sáb)</h4>
+                        <h5>19:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Desfile ISexy</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-5.png" alt="Orquestra sinfônica apresentando.">
+                    <div class="agenda__informacoes">
+                        <h3>set</h3>
+                        <h4>02 (sáb)</h4>
+                        <h5>19:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>OSESP Festival</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-6.png" alt="Desfile com dragão chinês">
+                    <div class="agenda__informacoes">
+                        <h3>out</h3>
+                        <h4>14 (sáb)</h4>
+                        <h5>15:30</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Festival Chinês</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-7.png" alt="Obra 'O Nascimento de Vênus'.">
+                    <div class="agenda__informacoes">
+                        <h3>nov</h3>
+                        <h4>18 (sáb)</h4>
+                        <h5>14:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Botticelli Expo</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-8.png" alt="Mulher com filhos comprando produtos natalinos.">
+                    <div class="agenda__informacoes">
+                        <h3>dez</h3>
+                        <h4>15 (sex)</h4>
+                        <h5>17:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Feira de Natal</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__botao"><button>Ver mais</button></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Encontre eventos</h3>
+            </li>
+            <li>Esta semana</li>
+            <li>Este fim de semana</li>
+            <li>Este mês</li>
+            <li>Este trimestre</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Cidades</h3>
+            </li>
+            <li>São Paulo</li>
+            <li>Rio de Janeiro</li>
+            <li>Porto Alegre</li>
+            <li>Salvador</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Categorias</h3>
+            </li>
+            <li>Shows</li>
+            <li>Arte</li>
+            <li>Teatro</li>
+            <li>Fotografia</li>
+            <li>Festivais</li>
+            <li>Design</li>
+            <li>Cinema</li>
+            <li>Tecnologia</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Sobre nós</h3>
+            </li>
+            <li>Carreiras</li>
+            <li>História</li>
+            <li>Contato</li>
+            <li>Localização</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Anuncie seu evento</h3>
+            </li>
+            <li>Música e festas</li>
+            <li>Cursos e workshops</li>
+            <li>Esportivo</li>
+            <li>Congresso</li>
+            <li>Religioso</li>
+            <li>Online</li>
+        </ul>
+        <div class="rodape__logo">
+            <h4></h4>
+            <p>Desenvolvido por Alura</p>
+        </div>
+    </footer>
+</body>
+</html>
